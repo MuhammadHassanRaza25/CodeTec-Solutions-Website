@@ -2,11 +2,11 @@ body{
   background-color: black;
 }
 .card{
-  transition: all 0.5s;
+  transition: all 0.5s !important;
 }
 .card:hover{
-  transform: scale(1.05);
-  transition: all 0.5s;
+  transform: scale(1.05) !important;
+  transition: all 0.5s !important;
 }
 li{
   margin-bottom: 3%;
