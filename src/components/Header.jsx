@@ -4,10 +4,16 @@ import { FaLocationArrow } from "react-icons/fa";
 import { useState } from "react";
 import { HiMenu, HiX } from 'react-icons/hi'
 import { Link } from "react-router";
+import Aos from "aos";
+import { useEffect } from "react";
+import 'aos/dist/aos.css'
 
 function Header(){
 
   const [menuOpen, setMenuOpen] = useState(false);
+    useEffect(()=>{
+      Aos.init();
+    },[])
   
     return(
       <>
@@ -41,7 +47,7 @@ function Header(){
 
       </div> */}
 
-        <div>
+        <div data-aos="fade-down">
           
           <div className="flex justify-center gap-16 pt-3 bg-black">
             <h2 className="headerDetail flex items-center gap-2 text-lime-500"><MdEmail/> contact@codetecsolutions.com</h2>

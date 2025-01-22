@@ -5,8 +5,15 @@ import graphicimage1 from "../assets/Images/graphicimage1.jpg"
 import graphicimage2 from "../assets/Images/graphicimage2.jpg"
 import graphicimage3 from "../assets/Images/graphicimage3.jpg"
 import graphicimage4 from "../assets/Images/graphicimage4.jpg"
+import Aos from "aos";
+import { useEffect } from "react";
+import 'aos/dist/aos.css'
 
 function GraphicDesigning(){
+
+    useEffect(()=>{
+            Aos.init();
+    },[])
   
   return(
     <>
@@ -44,7 +51,7 @@ function GraphicDesigning(){
                <section className="pt-5 bg-black text-gray-600 body-font">
                 <div className="mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
                   
-                  <div className="lg:max-w-lg lg:w-full md:w-1/2 w-[70vw] mb-10 md:mb-0">
+                  <div className="lg:max-w-lg lg:w-full md:w-1/2 w-[70vw] mb-10 md:mb-0" data-aos="fade-up">
                     <img
                       className="object-cover object-center rounded"
                       alt="hero"
@@ -52,7 +59,7 @@ function GraphicDesigning(){
                     />
                   </div>
                   
-                  <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left">
+                  <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left" data-aos="fade-up">
                     <h1 className="title-font text-lime-500 sm:text-4xl text-3xl mb-4 font-medium">
                        Designing & Production
                     </h1>
@@ -67,7 +74,7 @@ function GraphicDesigning(){
            <section className="pt-5 bg-black text-gray-600 body-font">
                 <div className="mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
                      
-                     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0">
+                     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0" data-aos="fade-up">
                         <h1 className="title-font text-lime-500 sm:text-4xl text-3xl mb-4 font-medium">
                           Our Expertise
                         </h1>
@@ -76,7 +83,7 @@ function GraphicDesigning(){
                         </p>
                      </div>
        
-                     <div className="lg:w-[32vw] md:w-1/2 w-[70vw]">
+                     <div className="lg:w-[32vw] md:w-1/2 w-[70vw]" data-aos="fade-up">
                         <img
                           className="object-cover object-center rounded-md"
                           alt="hero"
@@ -90,7 +97,7 @@ function GraphicDesigning(){
               <section className="pt-5 bg-black text-gray-600 body-font">
                 <div className="mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
                   
-                  <div className="lg:max-w-lg lg:w-full md:w-1/2 w-[70vw] mb-10 md:mb-0">
+                  <div className="lg:max-w-lg lg:w-full md:w-1/2 w-[70vw] mb-10 md:mb-0" data-aos="fade-up">
                     <img
                       className="object-cover object-center rounded"
                       alt="hero"
@@ -98,7 +105,7 @@ function GraphicDesigning(){
                     />
                   </div>
                   
-                  <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left">
+                  <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left" data-aos="fade-up">
                     <h1 className="title-font text-lime-500 sm:text-4xl text-3xl mb-4 font-medium">
                       Graphic Designing
                     </h1>
@@ -113,7 +120,7 @@ function GraphicDesigning(){
            <section className="pt-5 bg-black text-gray-600 body-font">
                 <div className="mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
                      
-                     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0">
+                     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0" data-aos="fade-up">
                         <h1 className="title-font text-lime-500 sm:text-4xl text-3xl mb-4 font-medium">
                           UI/UX Desiging
                         </h1>
@@ -122,7 +129,7 @@ function GraphicDesigning(){
                         </p>
                      </div>
        
-                     <div className="lg:w-[32vw] md:w-1/2 w-[70vw]">
+                     <div className="lg:w-[32vw] md:w-1/2 w-[70vw]" data-aos="fade-up">
                         <img
                           className="object-cover object-center rounded-md"
                           alt="hero"

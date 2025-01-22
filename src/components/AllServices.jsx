@@ -4,8 +4,16 @@ import Header from "./Header";
 import softwareimage1 from "../assets/Images/softwareimage1.png"
 import softwareimage2 from "../assets/Images/softwareimage2.png"
 import { FaUserCheck } from "react-icons/fa";
+import Aos from "aos";
+import { useEffect } from "react";
+import 'aos/dist/aos.css'
 
 function AllServices() {
+
+    useEffect(()=>{
+      Aos.init();
+    },[])
+
     return(
        <>
          <Header/>
@@ -39,10 +47,10 @@ function AllServices() {
           </div>
 
           {/* Software Development Services */}
-          <section className="pt-8 bg-black text-gray-600 body-font">
+          <section className="pt-2 bg-black text-gray-600 body-font">
                    <div className="mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
                      
-                     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-[70vw] mb-10 md:mb-0">
+                     <div className="bg-white flex justify-center rounded-lg lg:max-w-lg lg:w-[40vw] lg:h-[40vh] md:w-1/2 w-[70vw] mb-10 md:mb-0" data-aos="fade-up">
                        <img
                          className="object-cover object-center rounded"
                          alt="hero"
@@ -50,7 +58,7 @@ function AllServices() {
                        />
                      </div>
                      
-                     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left">
+                     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left" data-aos="fade-up">
                        <h1 className="title-font text-lime-500 sm:text-4xl text-3xl mb-4 font-medium">
                          Development
                        </h1>
@@ -63,9 +71,9 @@ function AllServices() {
               </section> 
 
           <section className="bg-black text-gray-600 body-font">
-                       <div className="mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
+                       <div className="mx-auto flex px-20 pb-20 md:flex-row flex-col items-center">
                             
-                            <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0">
+                            <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0" data-aos="fade-up">
                                <h1 className="title-font text-lime-500 sm:text-4xl text-3xl mb-4 font-medium">
                                  More Than 10 Years Of Experience​
                                </h1>
@@ -80,7 +88,7 @@ function AllServices() {
 
                             </div>
               
-                            <div className="lg:w-[32vw] md:w-1/2 w-[70vw]">
+                            <div className="bg-white flex justify-center rounded-lg lg:w-[30vw] p-2 md:w-1/2 w-[70vw]" data-aos="fade-up">
                                <img
                                  className="object-cover object-center rounded-md"
                                  alt="hero"
@@ -92,29 +100,29 @@ function AllServices() {
           </section>
 
              
-            <div className="flex flex-wrap justify-between px-20">
+            <div className="flex flex-wrap justify-between px-20" data-aos="fade-right">
               <h1 className="text-4xl font-semibold text-lime-500">WHAT WE CAN OFFER</h1>
               <p className="text-gray-300">We are constantly striving to improve our offerings so that our clients can <br /> benefit from the latest advances in technology.</p>
             </div>
 
             <div className="mt-20 flex flex-wrap gap-10 justify-between px-20">
 
-               <div>
+               <div data-aos="fade-right">
                   <h1 className="mb-4 text-lime-500 font-semibold text-3xl">Web Development</h1>
                   <p className="text-gray-300">At CodeTec Solutions, we build responsive, secure, and scalable web solutions tailored to your needs. Combining cutting-edge technology with intuitive design, we create websites and web applications that drive growth, enhance user experience, and set your brand apart online.</p>
                </div>
 
-               <div>
+               <div data-aos="fade-right">
                   <h1 className="mb-4 text-lime-500 font-semibold text-3xl">Web App Development</h1>
                   <p className="text-gray-300">At CodeTec Solutions, we specialize in web app development that delivers powerful, user-friendly, and scalable solutions. From dynamic interfaces to robust backends, we create web applications tailored to your business needs, ensuring seamless performance and exceptional user experiences.</p>
                </div>
 
-               <div>
+               <div data-aos="fade-right">
                   <h1 className="mb-4 text-lime-500 font-semibold text-3xl">Mobile App Development</h1>
                   <p className="text-gray-300">At CodeTec Solutions, we create high-quality mobile applications tailored for iOS and Android. Combining sleek design with robust functionality, our apps deliver seamless user experiences, performance, and scalability to meet your business goals.</p>
                </div>
 
-               <div>
+               <div data-aos="fade-right">
                   <h1 className="mb-4 text-lime-500 font-semibold text-3xl">Desktop Application Development</h1>
                   <p className="text-gray-300">At CodeTec Solutions, we develop custom desktop applications designed for performance, reliability, and user-friendliness. Tailored to your business needs, our solutions ensure seamless functionality, scalability, and compatibility across various operating systems, driving efficiency and growth.</p>
                </div>
@@ -122,23 +130,23 @@ function AllServices() {
             </div>
 
             {/* clients feedback */}
-            <div className="mt-32">
+            <div className="mt-32" data-aos="fade-right">
                <h1 className="flex items-center justify-center gap-5 text-4xl text-lime-500 font-semibold">Clients Feedback <FaUserCheck /></h1>
             </div>
 
             <div className="mt-12 flex flex-wrap gap-10 justify-between px-20">
 
-               <div>
+               <div data-aos="fade-right">
                   <h1 className="mb-4 text-lime-500 font-semibold text-3xl">Umaima Azeez <br /> <span className="text-gray-400 text-xl">Business Owner</span></h1>
                   <p className="text-gray-300">We partnered with CodeTec Solutionsfor the development of a custom desktop application to streamline our internal processes. From concept to implementation, their team showcased exceptional expertise and professionalism. They thoroughly understood our complex requirements and delivered a robust, user-friendly application ahead of schedule. The solution has significantly enhanced our workflow efficiency, and we commend CodeTec Solution’s dedication and technical excellence.</p>
                </div>
 
-               <div>
+               <div data-aos="fade-right">
                   <h1 className="mb-4 text-lime-500 font-semibold text-3xl">Danish Owais <br /> <span className="text-gray-400 text-xl">Founder & CEO</span></h1>
                   <p className="text-gray-300">I had the pleasure of working with the talented web design team at CodeTec Solutionsfor our company’s website redesign project. Their creativity and attention to detail truly impressed me. They not only crafted a visually stunning website but also ensured a seamless user experience. Our website now reflects our brand identity perfectly, and we’ve received numerous compliments from our customers. I highly recommend CodeTec Solutions for their exceptional web design expertise.</p>
                </div>
 
-               <div>
+               <div data-aos="fade-right">
                   <h1 className="mb-4 text-lime-500 font-semibold text-3xl">Saad Ahmed <br /> <span className="text-gray-400 text-xl">Founder & Director</span></h1>
                   <p className="text-gray-300">CodeTec Solutions exceeded our expectations in creating a modern and captivating website for our tech startup. Their team demonstrated a deep understanding of our vision and industry trends. They incorporated innovative design elements, resulting in a website that not only looks great but also functions flawlessly. The user experience they crafted has been a game-changer for us, enhancing our online presence and customer engagement. We’re grateful for the expertise and dedication of CodeTec Solutions.</p>
                </div>

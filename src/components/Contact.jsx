@@ -1,12 +1,20 @@
 import Footer from "./Footer";
 import Header from "./Header";
+import Aos from "aos";
+import { useEffect } from "react";
+import 'aos/dist/aos.css'
 
 function Contact() {
+
+  useEffect(()=>{
+        Aos.init();
+  },[])
+
     return(
         <>
         <Header/>
 
-        <section className="text-gray-600 body-font relative">
+        <section className="text-gray-600 body-font relative" data-aos="fade-right">
             <div className="px-16 pt-20 pb-16 mx-auto flex">
               <div className="lg:w-full md:w-1/2 border  rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
                 <h2 className="text-gray-100 text-5xl mb-1 font-medium title-font">

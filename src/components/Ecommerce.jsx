@@ -3,9 +3,16 @@ import Footer from "./Footer";
 import Header from "./Header";
 import ecommerceimage1 from "../assets/Images/ecommerceimage1.png"
 import ecommerceimage2 from "../assets/Images/ecommerceimage2.png"
+import Aos from "aos";
+import { useEffect } from "react";
+import 'aos/dist/aos.css'
 
 function Ecommerce(){
-  
+
+  useEffect(()=>{
+          Aos.init();
+  },[])
+
   return(
     <>
       <Header/>
@@ -42,7 +49,7 @@ function Ecommerce(){
         <section className="pt-8 bg-black text-gray-600 body-font">
                        <div className="mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
                             
-                            <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0">
+                            <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0" data-aos="fade-up">
                                <h1 className="title-font text-lime-500 sm:text-4xl text-3xl mb-4 font-medium">
                                  WordPress
                                </h1>
@@ -51,7 +58,7 @@ function Ecommerce(){
                                </p>
                             </div>
               
-                            <div className="lg:w-[32vw] md:w-1/2 w-[70vw]">
+                            <div className="lg:w-[32vw] md:w-1/2 w-[70vw]" data-aos="fade-up">
                                <img
                                  className="object-cover object-center rounded-md"
                                  alt="hero"
@@ -65,7 +72,7 @@ function Ecommerce(){
                   <section className="pt-5 bg-black text-gray-600 body-font">
                         <div className="mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
                           
-                          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-[70vw] mb-10 md:mb-0">
+                          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-[70vw] mb-10 md:mb-0" data-aos="fade-up">
                             <img
                               className="object-cover object-center rounded"
                               alt="hero"
@@ -73,7 +80,7 @@ function Ecommerce(){
                             />
                           </div>
                           
-                          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left">
+                          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left" data-aos="fade-up">
                             <h1 className="title-font text-lime-500 sm:text-4xl text-3xl mb-4 font-medium">
                                Shopify
                             </h1>

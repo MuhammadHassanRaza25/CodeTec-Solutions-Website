@@ -6,11 +6,19 @@ import webdevelopment from "../assets/Images/webdevelopment.jpg"
 import uiuxdesigning2 from "../assets/Images/uiuxdesigning2.jpg"
 import desktopappdevelopment from "../assets/Images/desktopappdevelopment.jpg"
 import { Link } from "react-router";
+import Aos from "aos";
+import { useEffect } from "react";
+import 'aos/dist/aos.css'
 
 function Services(){
+
+  useEffect(()=>{
+      Aos.init();
+    },[])
+
     return(
         <>
-        <h1 className="pt-10 flex items-center gap-3 justify-center font-semibold text-lime-500 bg-black text-4xl">OUR SERVICES <PiHandArrowUpFill /></h1>
+        <h1 className="pt-10 flex items-center gap-3 justify-center font-semibold text-lime-500 bg-black text-4xl" data-aos="fade-up">OUR SERVICES <PiHandArrowUpFill /></h1>
         
         <section className="bg-black text-gray-600 body-font">
             
@@ -18,7 +26,7 @@ function Services(){
             <div className="container px-12 pt-10 mx-auto">
               <div className="flex flex-wrap -m-4">
                 
-                <div className="card p-4 md:w-1/3">
+                <div className="card p-4 md:w-1/3" data-aos="fade-up">
                   <div className="h-full border-opacity-60 overflow-hidden">
                     <img
                       className="lg:h-56 md:h-36 w-full object-cover object-center"
@@ -36,7 +44,7 @@ function Services(){
                   </div>
                 </div>
                 
-                <div className="card p-4 md:w-1/3">
+                <div className="card p-4 md:w-1/3" data-aos="fade-up">
                   <div className="h-full border-opacity-60 overflow-hidden">
                     <img
                       className="lg:h-56 md:h-36 w-full object-cover object-center"
@@ -54,7 +62,7 @@ function Services(){
                   </div>
                 </div>
                 
-                <div className="card p-4 md:w-1/3">
+                <div className="card p-4 md:w-1/3" data-aos="fade-up">
                   <div className="h-full overflow-hidden">
                     <img
                       className="lg:h-56 md:h-36 w-full object-cover object-center"
@@ -79,7 +87,7 @@ function Services(){
             <div className="container px-12 pt-10 mx-auto">
               <div className="flex flex-wrap -m-4">
                 
-                <div className="card p-4 md:w-1/3">
+                <div className="card p-4 md:w-1/3" data-aos="fade-up">
                   <div className="h-full border-opacity-60 overflow-hidden">
                     <img
                       className="lg:h-56 md:h-36 w-full object-cover object-center"
@@ -97,7 +105,7 @@ function Services(){
                   </div>
                 </div>
                 
-                <div className="card p-4 md:w-1/3">
+                <div className="card p-4 md:w-1/3" data-aos="fade-up">
                   <div className="h-full overflow-hidden">
                     <img
                       className="lg:h-56 md:h-36 w-full object-cover object-center"
@@ -115,7 +123,7 @@ function Services(){
                   </div>
                 </div>
 
-                <div className="card p-4 md:w-1/3">
+                <div className="card p-4 md:w-1/3" data-aos="fade-up">
                   <div className="h-full border-opacity-60 overflow-hidden">
                     <img
                       className="lg:h-56 md:h-36 w-full object-cover object-center"
@@ -136,7 +144,7 @@ function Services(){
               </div>
             </div>
 
-            <div className="text-center mt-10">
+            <div className="text-center mt-10" data-aos="fade-up">
               <Link to={'/allservices'}>
                  <button className="inline-flex text-lg font-semibold bg-lime-600 hover:bg-lime-500 text-white px-8 py-2 rounded-md">View All</button>
                </Link>

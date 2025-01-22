@@ -1,14 +1,22 @@
 import heroimage from "../assets/Images/heroimage.jpg"
 import hero2 from "../assets/Images/hero2.jpg"
 import { Link } from "react-router";
+import Aos from "aos";
+import { useEffect } from "react";
+import 'aos/dist/aos.css'
 
 function HeroSection(){
+
+  useEffect(()=>{
+    Aos.init();
+  },[])
+
     return(
      <>
       <section className="pt-5 bg-black text-gray-600 body-font">
          <div className="mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
               
-              <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0">
+              <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0" data-aos="fade-up">
                  <h1 className="title-font text-lime-500 sm:text-4xl text-3xl mb-4 font-medium">
                    CodeTec Solutions
                  </h1>
@@ -25,7 +33,7 @@ function HeroSection(){
                   </div>
               </div>
 
-              <div className="lg:w-[32vw] md:w-1/2 w-[70vw]">
+              <div className="lg:w-[32vw] md:w-1/2 w-[70vw]" data-aos="fade-up">
                  <img
                    className="object-cover object-center rounded-md"
                    alt="hero"
@@ -39,7 +47,7 @@ function HeroSection(){
        <section className="pt-5 bg-black text-gray-600 body-font">
          <div className="mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
            
-           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-[70vw] mb-10 md:mb-0">
+           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-[70vw] mb-10 md:mb-0" data-aos="fade-right">
              <img
                className="object-cover object-center rounded"
                alt="hero"
@@ -47,7 +55,7 @@ function HeroSection(){
              />
            </div>
            
-           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left">
+           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left" data-aos="fade-right">
              <h1 className="title-font text-lime-500 sm:text-4xl text-3xl mb-4 font-medium">
                WHAT WE DO ?
              </h1>
