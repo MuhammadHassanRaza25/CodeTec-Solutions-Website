@@ -95,16 +95,16 @@ function Header(){
           {menuOpen && (
             <div className="md:hidden flex flex-col gap-5 items-center bg-black text-white py-4">
                <Link to={'/'}>
-                <h1 className="font-bold text-white hover:text-lime-500">Home</h1>
+                <h2 className="font-bold text-white hover:text-lime-500">Home</h2>
               </Link>
               <Link to={'/allservices'}>
-                <h1 className="font-bold text-white hover:text-lime-500">Services</h1>
+                <h2 className="font-bold text-white hover:text-lime-500">Services</h2>
               </Link>
                <Link to={'/about'}>
-                 <h1 className="font-bold text-white hover:text-lime-500">About</h1>
+                 <h2 className="font-bold text-white hover:text-lime-500">About</h2>
                </Link>
                <Link to={'/contact'}>
-                 <h1 className="font-bold text-white hover:text-lime-500">Contact</h1>
+                 <h2 className="font-bold text-white hover:text-lime-500">Contact</h2>
                </Link>
                <Link to={'/contact'}>
               <button className="font-semibold bg-lime-600 hover:bg-lime-500 text-white px-7 py-3 rounded-md">

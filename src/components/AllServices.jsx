@@ -22,25 +22,25 @@ function AllServices() {
 
               <Link className="cursor-pointer w-full hover:text-white" to={'/allservices'}>
                 <div>
-                    <h1 className="rounded-md text-center p-3 bg-lime-600 text-white hover:text-white font-semibold">Software Development</h1>
+                    <h2 className="rounded-md text-center p-3 bg-lime-600 text-white hover:text-white font-semibold">Software Development</h2>
                 </div>
               </Link>
 
               <Link className="cursor-pointer w-full hover:text-white" to={'/mobileappDevelopment'}>
                 <div>
-                    <h1 className="rounded-md text-center p-3 bg-black text-white hover:bg-lime-600 hover:text-white font-semibold">Mobile Development</h1>
+                    <h2 className="rounded-md text-center p-3 bg-black text-white hover:bg-lime-600 hover:text-white font-semibold">Mobile Development</h2>
                 </div>
               </Link>
 
               <Link className="cursor-pointer w-full hover:text-white" to={'/ecommerce'}>
                 <div>
-                    <h1 className="rounded-md  text-center p-3 bg-black text-white hover:bg-lime-600 hover:text-white font-semibold">E-commerce</h1>
+                    <h2 className="rounded-md  text-center p-3 bg-black text-white hover:bg-lime-600 hover:text-white font-semibold">E-commerce</h2>
                 </div>
               </Link>
 
               <Link className="cursor-pointer w-full hover:text-white" to={'/graphicdesigning'}>
                 <div>
-                    <h1 className="rounded-md  text-center p-3 bg-black text-white hover:bg-lime-600 hover:text-white font-semibold">Graphic Designing</h1>
+                    <h2 className="rounded-md  text-center p-3 bg-black text-white hover:bg-lime-600 hover:text-white font-semibold">Graphic Designing</h2>
                 </div>
               </Link>
 
@@ -48,9 +48,9 @@ function AllServices() {
 
           {/* Software Development Services */}
           <section className="pt-2 bg-black text-gray-600 body-font">
-                   <div className="mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
+                   <div className="contentDiv mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
                      
-                     <div className="bg-white flex justify-center rounded-lg lg:max-w-lg lg:w-[40vw] lg:h-[40vh] md:w-1/2 w-[70vw] mb-10 md:mb-0" data-aos="fade-up">
+                     <div className="bg-white flex justify-center rounded-lg lg:max-w-lg lg:w-[40vw] lg:h-[40vh] md:w-1/2 w-[80vw] mb-10 md:mb-0" data-aos="fade-up">
                        <img
                          className="object-cover object-center rounded"
                          alt="hero"
@@ -71,7 +71,7 @@ function AllServices() {
               </section> 
 
           <section className="bg-black text-gray-600 body-font">
-                       <div className="mx-auto flex px-20 pb-20 md:flex-row flex-col items-center">
+                       <div className="contentDiv mx-auto flex px-20 pb-20 md:flex-row flex-col items-center">
                             
                             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0" data-aos="fade-up">
                                <h1 className="title-font text-lime-500 sm:text-4xl text-3xl mb-4 font-medium">
@@ -88,7 +88,7 @@ function AllServices() {
 
                             </div>
               
-                            <div className="bg-white flex justify-center rounded-lg lg:w-[30vw] p-2 md:w-1/2 w-[70vw]" data-aos="fade-up">
+                            <div className="bg-white flex justify-center rounded-lg lg:w-[30vw] p-2 md:w-1/2 w-[80vw]" data-aos="fade-up">
                                <img
                                  className="object-cover object-center rounded-md"
                                  alt="hero"
@@ -100,12 +100,12 @@ function AllServices() {
           </section>
 
              
-            <div className="flex flex-wrap justify-between px-20" data-aos="fade-right">
+            <div className="contentDiv flex flex-wrap justify-between px-20" data-aos="fade-right">
               <h1 className="text-4xl font-semibold text-lime-500">WHAT WE CAN OFFER</h1>
               <p className="text-gray-300">We are constantly striving to improve our offerings so that our clients can <br /> benefit from the latest advances in technology.</p>
             </div>
 
-            <div className="mt-20 flex flex-wrap gap-10 justify-between px-20">
+            <div className="contentDiv mt-20 flex flex-wrap gap-10 justify-between px-20">
 
                <div data-aos="fade-right">
                   <h1 className="mb-4 text-lime-500 font-semibold text-3xl">Web Development</h1>
@@ -134,7 +134,7 @@ function AllServices() {
                <h1 className="flex items-center justify-center gap-5 text-4xl text-lime-500 font-semibold">Clients Feedback <FaUserCheck /></h1>
             </div>
 
-            <div className="mt-12 flex flex-wrap gap-10 justify-between px-20">
+            <div className="contentDiv mt-12 flex flex-wrap gap-10 justify-between px-20">
 
                <div data-aos="fade-right">
                   <h1 className="mb-4 text-lime-500 font-semibold text-3xl">Umaima Azeez <br /> <span className="text-gray-400 text-xl">Business Owner</span></h1>

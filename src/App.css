@@ -38,6 +38,16 @@ li{
     width: 150px;
     height: 62px;
   }
+  .contentDiv{
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  h1{
+    font-size: 25px !important;
+  }
+  p{
+    font-size: 15px !important;
+  }
 }
 
 

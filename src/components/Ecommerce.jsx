@@ -21,25 +21,25 @@ function Ecommerce(){
 
            <Link className="cursor-pointer w-full hover:text-white" to={'/allservices'}>
              <div>
-                 <h1 className="rounded-md text-center p-3 bg-black text-white hover:bg-lime-600 hover:text-white font-semibold">Software Development</h1>
+                 <h2 className="rounded-md text-center p-3 bg-black text-white hover:bg-lime-600 hover:text-white font-semibold">Software Development</h2>
              </div>
            </Link>
 
            <Link className="cursor-pointer w-full hover:text-white" to={'/mobileappDevelopment'}>
              <div>
-                 <h1 className="rounded-md text-center p-3 bg-black text-white hover:bg-lime-600 hover:text-white font-semibold">Mobile Development</h1>
+                 <h2 className="rounded-md text-center p-3 bg-black text-white hover:bg-lime-600 hover:text-white font-semibold">Mobile Development</h2>
              </div>
            </Link>
 
            <Link className="cursor-pointer w-full hover:text-white" to={'/ecommerce'}>
              <div>
-                 <h1 className="rounded-md  text-center p-3 bg-lime-600 text-white font-semibold">E-commerce</h1>
+                 <h2 className="rounded-md  text-center p-3 bg-lime-600 text-white font-semibold">E-commerce</h2>
              </div>
            </Link>
 
            <Link className="cursor-pointer w-full hover:text-white" to={'/graphicdesigning'}>
              <div>
-                 <h1 className="rounded-md  text-center p-3 bg-black text-white hover:bg-lime-600 hover:text-white font-semibold">Graphic Designing</h1>
+                 <h2 className="rounded-md  text-center p-3 bg-black text-white hover:bg-lime-600 hover:text-white font-semibold">Graphic Designing</h2>
              </div>
            </Link>
 
@@ -47,7 +47,7 @@ function Ecommerce(){
 
        {/* Ecommerce Services */}
         <section className="pt-8 bg-black text-gray-600 body-font">
-                       <div className="mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
+                       <div className="contentDiv mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
                             
                             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0" data-aos="fade-up">
                                <h1 className="title-font text-lime-500 sm:text-4xl text-3xl mb-4 font-medium">
@@ -58,7 +58,7 @@ function Ecommerce(){
                                </p>
                             </div>
               
-                            <div className="lg:w-[32vw] md:w-1/2 w-[70vw]" data-aos="fade-up">
+                            <div className="lg:w-[32vw] md:w-1/2 w-[80vw]" data-aos="fade-up">
                                <img
                                  className="object-cover object-center rounded-md"
                                  alt="hero"
@@ -70,9 +70,9 @@ function Ecommerce(){
                      </section>
        
                   <section className="pt-5 bg-black text-gray-600 body-font">
-                        <div className="mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
+                        <div className="contentDiv mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
                           
-                          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-[70vw] mb-10 md:mb-0" data-aos="fade-up">
+                          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-[80vw] mb-10 md:mb-0" data-aos="fade-up">
                             <img
                               className="object-cover object-center rounded"
                               alt="hero"

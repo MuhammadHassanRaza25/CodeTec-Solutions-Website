@@ -14,7 +14,7 @@ function HeroSection(){
     return(
      <>
       <section className="pt-5 bg-black text-gray-600 body-font">
-         <div className="mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
+         <div className="contentDiv mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
               
               <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0" data-aos="fade-up">
                  <h1 className="title-font text-lime-500 sm:text-4xl text-3xl mb-4 font-medium">
@@ -33,7 +33,7 @@ function HeroSection(){
                   </div>
               </div>
 
-              <div className="lg:w-[32vw] md:w-1/2 w-[70vw]" data-aos="fade-up">
+              <div className="lg:w-[32vw] md:w-1/2 w-[80vw]" data-aos="fade-up">
                  <img
                    className="object-cover object-center rounded-md"
                    alt="hero"
@@ -45,9 +45,9 @@ function HeroSection(){
        </section>
 
        <section className="pt-5 bg-black text-gray-600 body-font">
-         <div className="mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
+         <div className="contentDiv mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
            
-           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-[70vw] mb-10 md:mb-0" data-aos="fade-right">
+           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-[80vw] mb-10 md:mb-0" data-aos="fade-right">
              <img
                className="object-cover object-center rounded"
                alt="hero"

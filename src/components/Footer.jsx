@@ -5,7 +5,7 @@ function Footer(){
     return(
       <>
         <footer className="mt-24 border-t bg-black text-gray-600 body-font">
-            <div className="px-20 py-20 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div className="contentDiv px-20 py-20 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
               
               <div className="w-64 flex-shrink-0 md:mx-0 md:text-left">
                 <span><img width={'180px'} src={codetecsolutionsLogo} alt="codetec solutions logo" /></span>
