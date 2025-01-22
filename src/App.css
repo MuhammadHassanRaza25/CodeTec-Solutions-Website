@@ -1,0 +1,56 @@
+body{
+  background-color: black;
+}
+.card{
+  transition: all 0.5s;
+}
+.card:hover{
+  transform: scale(1.05);
+  transition: all 0.5s;
+}
+li{
+  margin-bottom: 3%;
+}
+
+@media(max-width:950px){
+  .servicesBar{
+     flex-wrap: wrap;
+  }
+}
+@media(max-width:590px){
+  .headerDiv{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .headerDetail{
+    font-size: 11px;
+  }
+  .logo{
+    width: 160px;
+    height: 70px;
+  }
+}
+@media(max-width:440px){
+  .headerDetail{
+    font-size: 8px;
+  }
+  .logo{
+    width: 150px;
+    height: 62px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
